@@ -76,23 +76,21 @@
 - 95 % is within 1492.431 - 1499.849 confidence interval suggesting 95% values plus whatever is the to the left is under 1500.
 
 ## Study Design: MechaCar vs Competition
-- **1. Metrics the consumers would care about**
-    - Cost
-    - MPG in streets and highway
-    - Horse Power
-    - Safety Ratings
-    - **Metrics to test**
+**1. Metrics the consumers would care about**
+- Cost
+- MPG in streets and highway
+- Horse Power
+- Safety Ratings
 
-- **2. Null Hypothesis**
-    There is no significant difference between specific metric of MechaCars vs the competition.
-- **Alternative Hypothesis**
-    There is a significant difference between specific metric of MechaCars vs the competition.
+**2. Null and Alternative Hypothesis**
+- **Null Hypothesis** There is no significant difference between specific metric of MechaCars vs the competition.
+- **Alternative Hypothesis** There is a significant difference between specific metric of MechaCars vs the competition.
 
-- **3. Statistical Tests**
-    We can use multiple linear regression to compare the continuous values like cost, mpg for streets and highway, and horse power and see any correlation.
-    We can also perform T-tests between all cars as the population, and compare each competitor or MechaCars against the population.
+**3. Statistical Tests**
+We can use multiple linear regression to compare the continuous values like cost, mpg for streets and highway, and horse power and see any correlation.
+We can also perform T-tests between all cars as the population, and compare each competitor or MechaCars against the population.
 
-- **4. Data**
-    - Ideally we would have information such as type of car (sedan, truck, etc. as these are common ways to look at values)
-    - Cost, mpg on streets, mpg on highway, overall mpg, horse power, and safety ratings values.
-    - We would need to calculate the mean, median, standard deviation, for each type and perhaps have an overall type of car as well and determine p-value, t-values, info for the regresion line like slope and intercept.
+**4. Data**
+- Ideally we would have information such as type of car (sedan, truck, etc. as these are common ways to look at values)
+- Cost, mpg on streets, mpg on highway, overall mpg, horse power, and safety ratings values.
+- We would need to calculate the mean, median, standard deviation, for each type and perhaps have an overall type of car as well and determine p-value, t-values, info for the regresion line like slope and intercept.
