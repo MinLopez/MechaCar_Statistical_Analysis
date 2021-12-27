@@ -41,39 +41,27 @@
 ![Resources/D3_AllTTest.png](Resources/D3_AllTTest.png) 
 
 **D3.1** *T-test for PSI across all lots*
-- The p-value is 1 suggesting there is low significance. 
-- DF=149
-- The t-value is 0.
-- The mean of x is 1498.78.
-- 95 % is within 1497.507 - 1500.053 confidence interval.
+- The p-value is 0.06028 suggesting  there are is very weak or no correlation.
+- The t-value is -1.8931.
+- There is insufficient data to reject the null hypothesis with 95 % confidence interval.
 
 ![Resources/D3_Lot1.png](Resources/D3_Lot1.png) 
 
 **D3.2** *T-test for PSI across lot 1*
-- The p-value is 1.568e-11 which is much smaller than 5 suggesting a extreme significance. 
-- DF=49
-- The t-value is 8.7161
-- The mean of x is 1500.
-- 95 % is within 1499.719 - 1500.281 confidence interval.
-
+- The p-value is 1 meaning there is insufficent evidence to reject the null with a 95% confidence interval.
+- The t-value is 0.
 
 ![Resources/D3_Lot2.pngg](Resources/D3_Lot2.png) 
 
 **D3.3** *T-test for PSI across lot 2*
-- The p-value is 0.0005911 suggesting a very high signficance.
-- DF=49
-- The t-value is 3.6739.
-- The mean of x is 1500.2.
-- 95 % is within 1499.423 - 1500.977 confidence interval.
+- The p-value is 0.6072 suggesting there is insufficient evidence to reject the null with a 95% confidence interval.
+- The t-value is 0.517
 
 ![Resources/D3_Lot3.png](Resources/D3_Lot3.png) 
 
 **D3.4** *T-test for PSI across lot 3*
-- The p-value is 0.1589 suggesting low significance.
-- DF=49
-- The t-value is -1.4305.
-- The mean of x is 1496.14.
-- 95 % is within 1492.431 - 1499.849 confidence interval suggesting 95% values plus whatever is the to the left is under 1500.
+- The p-value is 0.04168  which means there is suffience evidence to reject the null with a 95% confidence interval. Lot 3 is different enough from the rest of the data and was not due to chance.
+- The t-value is -2.0916.
 
 ## Study Design: MechaCar vs Competition
 **1. Metrics the consumers would care about**
